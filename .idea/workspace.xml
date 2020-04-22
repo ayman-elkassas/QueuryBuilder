@@ -1,37 +1,411 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b66150b-d43e-4343-9ffe-9fd50d7fb907" name="Default Changelist" comment="" />
+    <list default="true" id="3b66150b-d43e-4343-9ffe-9fd50d7fb907" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShots Lessons/1/filterByFields.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShots Lessons/1/getActorsLN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShots Lessons/1/whereMultipleFieldsMethod1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShots Lessons/1/whereMultipleFieldsMethod2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShots Lessons/1/whereMultipleFieldsMethod3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShots Lessons/1/whereSingleField.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShots Lessons/2/orWhere.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShots Lessons/2/whereBetweenSkipLimit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShots Lessons/2/whereInOrderBy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/QueuryBuilder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/QueuryBuilder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sakila@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sakila@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sakila@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="sakila: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sakila@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="sakila: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="451">
+              <caret line="95" column="16" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
+              <folding>
+                <element signature="e#7#44#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScreenShots Lessons/1/whereMultipleFieldsMethod3.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScreenShots Lessons/2/whereInOrderBy.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScreenShots Lessons/1/whereMultipleFieldsMethod2.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScreenShots Lessons/1/whereMultipleFieldsMethod1.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScreenShots Lessons/1/whereSingleField.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScreenShots Lessons/1/filterByFields.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScreenShots Lessons/1/getActorsLN.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://DATABASE/4a1c69d0-0a54-4b88-82ce-94caf0d99eec.SCHEMA:sakila">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>4a1c69d0-0a54-4b88-82ce-94caf0d99eec.SCHEMA:sakila</OriginalElement>
+              <nodes>
+                <node x="291.0" y="1728.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.VIEW:sakila.staff_list</node>
+                <node x="0.0" y="1728.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.VIEW:sakila.film_list</node>
+                <node x="201.31250000000006" y="147.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.city</node>
+                <node x="900.9166666666667" y="371.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.language</node>
+                <node x="201.31250000000006" y="0.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.country</node>
+                <node x="1458.7993421052631" y="0.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.VIEW:sakila.customer_list</node>
+                <node x="721.0" y="1728.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.film_text</node>
+                <node x="1227.7993421052631" y="672.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.actor</node>
+                <node x="893.0" y="1728.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.VIEW:sakila.sales_by_store</node>
+                <node x="469.0" y="1017.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.inventory</node>
+                <node x="250.0" y="940.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.staff</node>
+                <node x="1181.2993421052631" y="1028.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.film_actor</node>
+                <node x="736.7993421052631" y="573.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.film</node>
+                <node x="185.04934210526312" y="1498.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.payment</node>
+                <node x="20.0" y="962.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.customer</node>
+                <node x="490.0" y="1728.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.VIEW:sakila.actor_info</node>
+                <node x="1663.7993421052631" y="0.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.VIEW:sakila.nicer_but_slower_film_list</node>
+                <node x="208.0274122807017" y="1263.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.rental</node>
+                <node x="224.11074561403507" y="672.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.store</node>
+                <node x="201.81250000000006" y="316.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.address</node>
+                <node x="1108.0" y="1728.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.VIEW:sakila.sales_by_film_category</node>
+                <node x="786.501096491228" y="1028.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.film_category</node>
+                <node x="518.7993421052631" y="683.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.category</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.payment" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.customer">
+                  <point x="-70.0" y="-92.5" />
+                  <point x="220.04934210526312" y="1473.0" />
+                  <point x="72.5" y="1473.0" />
+                  <point x="-52.5" y="114.5" />
+                </edge>
+                <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.rental" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.staff">
+                  <point x="0.0" y="-92.5" />
+                  <point x="322.0274122807017" y="1243.0" />
+                  <point x="299.75" y="1243.0" />
+                  <point x="-49.75" y="136.5" />
+                </edge>
+                <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.city" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.country">
+                  <point x="0.0" y="-59.5" />
+                  <point x="0.0" y="48.5" />
+                </edge>
+                <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.store" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.staff">
+                  <point x="28.625" y="59.5" />
+                  <point x="367.23574561403507" y="920.0" />
+                  <point x="349.5" y="920.0" />
+                  <point x="0.0" y="-136.5" />
+                </edge>
+                <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.payment" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.rental">
+                  <point x="0.0" y="-92.5" />
+                  <point x="290.0493421052631" y="1473.0" />
+                  <point x="322.0274122807017" y="1473.0" />
+                  <point x="0.0" y="92.5" />
+                </edge>
+                <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.rental" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.inventory">
+                  <point x="76.0" y="-92.5" />
+                  <point x="398.0274122807017" y="1243.0" />
+                  <point x="583.0" y="1243.0" />
+                  <point x="0.0" y="59.5" />
+                </edge>
+                <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.staff" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.address">
+                  <point x="66.33333333333337" y="-136.5" />
+                  <point x="415.83333333333337" y="920.0" />
+                  <point x="463.61074561403507" y="920.0" />
+                  <point x="463.61074561403507" y="548.0" />
+                  <point x="367.6458333333333" y="548.0" />
+                  <point x="66.33333333333326" y="103.5" />
+                </edge>
+                <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.address" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.city">
+                  <point x="0.0" y="-103.5" />
+                  <point x="0.0" y="59.5" />
+                </edge>
+                <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.customer" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.store">
+                  <point x="52.5" y="-114.5" />
+                  <point x="177.5" y="920.0" />
+                  <point x="252.73574561403507" y="920.0" />
+                  <point x="-85.875" y="59.5" />
+                </edge>
+                <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.payment" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.staff">
+                  <point x="70.0" y="-92.5" />
+                  <point x="360.0493421052631" y="1473.0" />
+                  <point x="446.5274122807017" y="1473.0" />
+                  <point x="446.5274122807017" y="1233.0" />
+                  <point x="399.25" y="1233.0" />
+                  <point x="49.75" y="136.5" />
+                </edge>
+                <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.customer" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.address">
+                  <point x="-52.5" y="-114.5" />
+                  <point x="72.5" y="548.0" />
+                  <point x="234.97916666666669" y="548.0" />
+                  <point x="-66.33333333333337" y="103.5" />
+                </edge>
+                <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.inventory" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.film">
+                  <point x="57.0" y="-59.5" />
+                  <point x="640.0" y="920.0" />
+                  <point x="815.2993421052631" y="920.0" />
+                  <point x="-157.0" y="158.5" />
+                </edge>
+                <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.film" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.language">
+                  <point x="-117.75" y="-158.5" />
+                  <point x="854.5493421052631" y="548.0" />
+                  <point x="950.6666666666667" y="548.0" />
+                  <point x="-49.75" y="48.5" />
+                </edge>
+                <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.film_actor" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.actor">
+                  <point x="46.5" y="-48.5" />
+                  <point x="0.0" y="59.5" />
+                </edge>
+                <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.store" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.address">
+                  <point x="0.0" y="-59.5" />
+                  <point x="338.61074561403507" y="548.0" />
+                  <point x="301.31250000000006" y="548.0" />
+                  <point x="0.0" y="103.5" />
+                </edge>
+                <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.staff" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.store">
+                  <point x="-66.33333333333326" y="-136.5" />
+                  <point x="283.16666666666674" y="920.0" />
+                  <point x="309.98574561403507" y="920.0" />
+                  <point x="-28.625" y="59.5" />
+                </edge>
+                <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.film_actor" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.film">
+                  <point x="-46.5" y="-48.5" />
+                  <point x="1227.7993421052631" y="920.0" />
+                  <point x="1129.2993421052631" y="920.0" />
+                  <point x="157.0" y="158.5" />
+                </edge>
+                <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.rental" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.customer">
+                  <point x="-76.0" y="-92.5" />
+                  <point x="246.0274122807017" y="1243.0" />
+                  <point x="177.5" y="1243.0" />
+                  <point x="52.5" y="114.5" />
+                </edge>
+                <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.film_category" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.film">
+                  <point x="49.5" y="-48.5" />
+                  <point x="935.001096491228" y="920.0" />
+                  <point x="972.2993421052631" y="920.0" />
+                  <point x="0.0" y="158.5" />
+                </edge>
+                <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.film_category" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.category">
+                  <point x="-49.5" y="-48.5" />
+                  <point x="836.001096491228" y="910.0" />
+                  <point x="617.7993421052631" y="910.0" />
+                  <point x="0.0" y="48.5" />
+                </edge>
+                <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.inventory" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.store">
+                  <point x="-57.0" y="-59.5" />
+                  <point x="526.0" y="910.0" />
+                  <point x="424.48574561403507" y="910.0" />
+                  <point x="85.875" y="59.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.4" x="689.2272767894883" y="633.4758364312268" />
+              <SelectedNodes>
+                <node>4a1c69d0-0a54-4b88-82ce-94caf0d99eec.VIEW:sakila.staff_list</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/mtolhuys/laravel-schematics" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="656" />
     <option name="height" value="435" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -48,7 +422,29 @@
             <path>
               <item name="QueuryBuilder" type="b2602c69:ProjectViewProjectNode" />
               <item name="QueuryBuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QueuryBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QueuryBuilder" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QueuryBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QueuryBuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="ScreenShots Lessons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QueuryBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QueuryBuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="ScreenShots Lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QueuryBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QueuryBuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="ScreenShots Lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -58,13 +454,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/xammp/htdocs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ScreenShots Lessons/2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Server\htdocs\QueuryBuilder\ScreenShots Lessons\2" />
+      <recent name="E:\Server\htdocs\QueuryBuilder\ScreenShots Lessons\1" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -94,26 +498,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587489244839</updated>
-      <workItem from="1587489282208" duration="609000" />
+      <workItem from="1587489282208" duration="3757000" />
+      <workItem from="1587552862669" duration="6603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="609000" />
+    <option name="totallyTimeSpent" value="10360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32922536" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -121,20 +521,239 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.556338" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4a1c69d0-0a54-4b88-82ce-94caf0d99eec/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4a1c69d0-0a54-4b88-82ce-94caf0d99eec/schema/sakila/view/actor_info">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="17387623-e2ac-4380-bc7e-9213dbb2646d">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/4a1c69d0-0a54-4b88-82ce-94caf0d99eec.SCHEMA:sakila">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>4a1c69d0-0a54-4b88-82ce-94caf0d99eec.SCHEMA:sakila</OriginalElement>
+          <nodes>
+            <node x="291.0" y="1728.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.VIEW:sakila.staff_list</node>
+            <node x="0.0" y="1728.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.VIEW:sakila.film_list</node>
+            <node x="201.31250000000006" y="147.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.city</node>
+            <node x="900.9166666666667" y="371.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.language</node>
+            <node x="201.31250000000006" y="0.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.country</node>
+            <node x="1458.7993421052631" y="0.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.VIEW:sakila.customer_list</node>
+            <node x="721.0" y="1728.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.film_text</node>
+            <node x="1227.7993421052631" y="672.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.actor</node>
+            <node x="893.0" y="1728.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.VIEW:sakila.sales_by_store</node>
+            <node x="469.0" y="1017.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.inventory</node>
+            <node x="250.0" y="940.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.staff</node>
+            <node x="1181.2993421052631" y="1028.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.film_actor</node>
+            <node x="736.7993421052631" y="573.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.film</node>
+            <node x="185.04934210526312" y="1498.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.payment</node>
+            <node x="20.0" y="962.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.customer</node>
+            <node x="490.0" y="1728.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.VIEW:sakila.actor_info</node>
+            <node x="1663.7993421052631" y="0.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.VIEW:sakila.nicer_but_slower_film_list</node>
+            <node x="208.0274122807017" y="1263.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.rental</node>
+            <node x="224.11074561403507" y="672.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.store</node>
+            <node x="201.81250000000006" y="316.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.address</node>
+            <node x="1108.0" y="1728.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.VIEW:sakila.sales_by_film_category</node>
+            <node x="786.501096491228" y="1028.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.film_category</node>
+            <node x="518.7993421052631" y="683.0">4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.category</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.payment" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.customer">
+              <point x="-70.0" y="-92.5" />
+              <point x="220.04934210526312" y="1473.0" />
+              <point x="72.5" y="1473.0" />
+              <point x="-52.5" y="114.5" />
+            </edge>
+            <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.rental" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.staff">
+              <point x="0.0" y="-92.5" />
+              <point x="322.0274122807017" y="1243.0" />
+              <point x="299.75" y="1243.0" />
+              <point x="-49.75" y="136.5" />
+            </edge>
+            <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.city" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.country">
+              <point x="0.0" y="-59.5" />
+              <point x="0.0" y="48.5" />
+            </edge>
+            <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.store" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.staff">
+              <point x="28.625" y="59.5" />
+              <point x="367.23574561403507" y="920.0" />
+              <point x="349.5" y="920.0" />
+              <point x="0.0" y="-136.5" />
+            </edge>
+            <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.payment" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.rental">
+              <point x="0.0" y="-92.5" />
+              <point x="290.0493421052631" y="1473.0" />
+              <point x="322.0274122807017" y="1473.0" />
+              <point x="0.0" y="92.5" />
+            </edge>
+            <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.rental" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.inventory">
+              <point x="76.0" y="-92.5" />
+              <point x="398.0274122807017" y="1243.0" />
+              <point x="583.0" y="1243.0" />
+              <point x="0.0" y="59.5" />
+            </edge>
+            <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.staff" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.address">
+              <point x="66.33333333333337" y="-136.5" />
+              <point x="415.83333333333337" y="920.0" />
+              <point x="463.61074561403507" y="920.0" />
+              <point x="463.61074561403507" y="548.0" />
+              <point x="367.6458333333333" y="548.0" />
+              <point x="66.33333333333326" y="103.5" />
+            </edge>
+            <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.address" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.city">
+              <point x="0.0" y="-103.5" />
+              <point x="0.0" y="59.5" />
+            </edge>
+            <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.customer" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.store">
+              <point x="52.5" y="-114.5" />
+              <point x="177.5" y="920.0" />
+              <point x="252.73574561403507" y="920.0" />
+              <point x="-85.875" y="59.5" />
+            </edge>
+            <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.payment" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.staff">
+              <point x="70.0" y="-92.5" />
+              <point x="360.0493421052631" y="1473.0" />
+              <point x="446.5274122807017" y="1473.0" />
+              <point x="446.5274122807017" y="1233.0" />
+              <point x="399.25" y="1233.0" />
+              <point x="49.75" y="136.5" />
+            </edge>
+            <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.customer" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.address">
+              <point x="-52.5" y="-114.5" />
+              <point x="72.5" y="548.0" />
+              <point x="234.97916666666669" y="548.0" />
+              <point x="-66.33333333333337" y="103.5" />
+            </edge>
+            <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.inventory" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.film">
+              <point x="57.0" y="-59.5" />
+              <point x="640.0" y="920.0" />
+              <point x="815.2993421052631" y="920.0" />
+              <point x="-157.0" y="158.5" />
+            </edge>
+            <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.film" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.language">
+              <point x="-117.75" y="-158.5" />
+              <point x="854.5493421052631" y="548.0" />
+              <point x="950.6666666666667" y="548.0" />
+              <point x="-49.75" y="48.5" />
+            </edge>
+            <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.film_actor" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.actor">
+              <point x="46.5" y="-48.5" />
+              <point x="0.0" y="59.5" />
+            </edge>
+            <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.store" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.address">
+              <point x="0.0" y="-59.5" />
+              <point x="338.61074561403507" y="548.0" />
+              <point x="301.31250000000006" y="548.0" />
+              <point x="0.0" y="103.5" />
+            </edge>
+            <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.staff" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.store">
+              <point x="-66.33333333333326" y="-136.5" />
+              <point x="283.16666666666674" y="920.0" />
+              <point x="309.98574561403507" y="920.0" />
+              <point x="-28.625" y="59.5" />
+            </edge>
+            <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.film_actor" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.film">
+              <point x="-46.5" y="-48.5" />
+              <point x="1227.7993421052631" y="920.0" />
+              <point x="1129.2993421052631" y="920.0" />
+              <point x="157.0" y="158.5" />
+            </edge>
+            <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.rental" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.customer">
+              <point x="-76.0" y="-92.5" />
+              <point x="246.0274122807017" y="1243.0" />
+              <point x="177.5" y="1243.0" />
+              <point x="52.5" y="114.5" />
+            </edge>
+            <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.film_category" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.film">
+              <point x="49.5" y="-48.5" />
+              <point x="935.001096491228" y="920.0" />
+              <point x="972.2993421052631" y="920.0" />
+              <point x="0.0" y="158.5" />
+            </edge>
+            <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.film_category" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.category">
+              <point x="-49.5" y="-48.5" />
+              <point x="836.001096491228" y="910.0" />
+              <point x="617.7993421052631" y="910.0" />
+              <point x="0.0" y="48.5" />
+            </edge>
+            <edge source="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.inventory" target="4a1c69d0-0a54-4b88-82ce-94caf0d99eec.TABLE:sakila.store">
+              <point x="-57.0" y="-59.5" />
+              <point x="526.0" y="910.0" />
+              <point x="424.48574561403507" y="910.0" />
+              <point x="85.875" y="59.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.4" x="689.2272767894883" y="633.4758364312268" />
+          <SelectedNodes>
+            <node>4a1c69d0-0a54-4b88-82ce-94caf0d99eec.VIEW:sakila.staff_list</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScreenShots Lessons/1/getActorsLN.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScreenShots Lessons/1/filterByFields.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScreenShots Lessons/2/whereBetween.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScreenShots Lessons/2/whereInOrderBy.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScreenShots Lessons/1/whereSingleField.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScreenShots Lessons/1/whereMultipleFieldsMethod1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScreenShots Lessons/1/whereMultipleFieldsMethod2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScreenShots Lessons/1/whereMultipleFieldsMethod3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="451">
+          <caret line="95" column="16" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
+          <folding>
+            <element signature="e#7#44#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
