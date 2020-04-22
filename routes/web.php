@@ -135,15 +135,75 @@ Route::get('/', function () {
      *      order by title
      */
 
-    $EnglishFilms=DB::table('film')
-        ->select('film_id','title')
-        ->where('title','like','K%')
-        ->orWhere('title','like','Q%')
-        ->whereIn('language_id',function ($query){
-            $query->select('language_id')->from('language')
-                ->where('name','English');
-        })->orderBy('title')
-        ->get();
+//    $EnglishFilms=DB::table('film')
+//        ->select('film_id','title')
+//        ->where('title','like','K%')
+//        ->orWhere('title','like','Q%')
+//        ->whereIn('language_id',function ($query){
+//            $query->select('language_id')->from('language')
+//                ->where('name','English');
+//        })->orderBy('title')
+//        ->get();
 
-    return $EnglishFilms;
+    //Raw Query (How to inner join two tables is generated run time from subQuery
+    //using two methods ( fromSub() -> to get first table and joinSub() to get second one)
+    /**
+     * todo:select store_details.*, payment_details.*
+     *      from(
+     *          select sto.store_id,city.city,count.country
+     *          from store as sto
+     *          left join address as addr
+     *          on sto.address_id=addr.address_id
+     *          join city
+     *          on addr.city_id=city.city_id
+     *          join country count
+     *          on city.country_id=count.country_id
+     *      ) as store_details
+     *      inner join (
+     *          select cus.store_id,sum(pay.payment) as sales
+     *          from customer as cus
+     *          join payment as pay
+     *          on cus.customer_id =pay.customer_id
+     *          group by cus.store_id
+     *      ) as payment_details
+     *      on store_details.store_id=payment_details.store_id
+     *      order by store_details.store_id
+     */
+
+    $results=DB::query()
+        ->select(['store_details.*', 'payment_details.*'])
+        ->fromSub(function ($query){
+            $query->select(['sto.store_id','city.city','count.country'])
+                ->from('store as sto')
+                ->leftjoin('address as addr','sto.address_id','=','addr.address_id')
+                ->join('city','addr.city_id','=','city.city_id')
+                ->join('country as count','city.country_id','=','count.country_id');
+        },'store_details')
+        ->joinSub(function ($query){
+            $query->select(['cus.store_id',DB::raw('sum(pay.amount) as sales')])
+                ->from('customer as cus')
+                ->join('payment as pay','cus.customer_id','=','pay.customer_id')
+                ->groupBy('cus.store_id');
+        },'payment_details','store_details.store_id','=','payment_details.store_id')
+//        ->toSql()
+        ->get();
+    //todo:result is :
+//    select `store_details`.*,
+//       `payment_details`.*
+//    from
+//    (select `sto`.`store_id`,
+//          `city`.`city`,
+//          `count`.`country`
+//   from `store` as `sto`
+//   left join `address` as `addr` on `sto`.`address_id` = `addr`.`address_id`
+//   inner join `city` on `addr`.`city_id` = `city`.`city_id`
+//   inner join `country` as `count` on `city`.`country_id` = `count`.`country_id`) as `store_details`
+//   inner join
+//   (select `cus`.`store_id`,
+//          sum(pay.amount) as sales
+//   from `customer` as `cus`
+//   inner join `payment` as `pay` on `cus`.`customer_id` = `pay`.`customer_id`
+//   group by `cus`.`store_id`) as `payment_details` on `store_details`.`store_id` = `payment_details`.`store_id`
+
+    return $results;
 });
