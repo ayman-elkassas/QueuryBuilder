@@ -89,12 +89,40 @@ Route::get('/', function () {
 //        ->limit(10)
 //        ->get();
 
-    $films=DB::table('film')
-        ->select(['film_id','title','special_features','replacement_cost'])
-        ->where('title','=','African Egg')
-        ->orWhere('title','=','Agent Truman')
+//    $films=DB::table('film')
+//        ->select(['film_id','title','special_features','replacement_cost'])
+//        ->where('title','=','African Egg')
+//        ->orWhere('title','=','Agent Truman')
+//        ->get();
+
+    //Raw Query
+    /**
+     * Todo:select s.staff_id,s.first_name,s.last_name,s.email,
+     *      addr.address,addr.district,addr.postal_code,
+     *      c.city,count,country
+     *      from staff as s
+     *      left join address as addr
+     *      on s.address_id=addr.address_id
+     *      left join city as c
+     *      on addr.city_id=c.city_id
+     *      left join country as count
+     *      on c.country_id=count.country_id
+     *      order by staff_id
+     */
+
+    $staffWithAddresses=DB::table('staff as s')
+        ->select([
+            's.staff_id','s.first_name','s.last_name','s.email',
+            'addr.address','addr.district','addr.postal_code',
+            'c.city','count.country'])
+        ->leftJoin('address as addr', 's.address_id','=','addr.address_id')
+        //result is left join again with city
+        ->leftJoin('city as c','addr.city_id','=','c.city_id')
+        //result is left join again with country
+        ->leftJoin('country as count','c.country_id','=','count.country_id')
+        ->orderBy('staff_id')
         ->get();
 
 
-    return $films;
+    return $staffWithAddresses;
 });
