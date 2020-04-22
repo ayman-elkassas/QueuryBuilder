@@ -170,23 +170,23 @@ Route::get('/', function () {
      *      order by store_details.store_id
      */
 
-    $results=DB::query()
-        ->select(['store_details.*', 'payment_details.*'])
-        ->fromSub(function ($query){
-            $query->select(['sto.store_id','city.city','count.country'])
-                ->from('store as sto')
-                ->leftjoin('address as addr','sto.address_id','=','addr.address_id')
-                ->join('city','addr.city_id','=','city.city_id')
-                ->join('country as count','city.country_id','=','count.country_id');
-        },'store_details')
-        ->joinSub(function ($query){
-            $query->select(['cus.store_id',DB::raw('sum(pay.amount) as sales')])
-                ->from('customer as cus')
-                ->join('payment as pay','cus.customer_id','=','pay.customer_id')
-                ->groupBy('cus.store_id');
-        },'payment_details','store_details.store_id','=','payment_details.store_id')
-//        ->toSql()
-        ->get();
+//    $results=DB::query()
+//        ->select(['store_details.*', 'payment_details.*'])
+//        ->fromSub(function ($query){
+//            $query->select(['sto.store_id','city.city','count.country'])
+//                ->from('store as sto')
+//                ->leftjoin('address as addr','sto.address_id','=','addr.address_id')
+//                ->join('city','addr.city_id','=','city.city_id')
+//                ->join('country as count','city.country_id','=','count.country_id');
+//        },'store_details')
+//        ->joinSub(function ($query){
+//            $query->select(['cus.store_id',DB::raw('sum(pay.amount) as sales')])
+//                ->from('customer as cus')
+//                ->join('payment as pay','cus.customer_id','=','pay.customer_id')
+//                ->groupBy('cus.store_id');
+//        },'payment_details','store_details.store_id','=','payment_details.store_id')
+////        ->toSql()
+//        ->get();
     //todo:result is :
 //    select `store_details`.*,
 //       `payment_details`.*
@@ -205,5 +205,32 @@ Route::get('/', function () {
 //   inner join `payment` as `pay` on `cus`.`customer_id` = `pay`.`customer_id`
 //   group by `cus`.`store_id`) as `payment_details` on `store_details`.`store_id` = `payment_details`.`store_id`
 
-    return $results;
+    //Raw Query
+    /**
+     * todo:select cat.name,count(f.film_id) as film_count
+     *      from category as cat
+     *      left join film_category as fc
+     *      on cat.category_id = fc.category_id
+     *      join film as f
+     *      on fc.film_id=f.film_id
+     *      join language as lang
+     *      on f.language_id=lang.language_id
+     *      where lang.name = English
+     *      group by cat.name
+     *      order by film_count DESC
+     */
+
+    $categories=DB::table('category as cat')
+        ->select('cat.name',DB::raw('count(f.film_id) as film_count'))
+        ->leftJoin('film_category as fc','cat.category_id','=','fc.category_id')
+        ->join('film as f','fc.film_id','=','f.film_id')
+        ->join('language as lang',function ($join){
+            $value='English';
+            $join->on('f.language_id','=','lang.language_id')
+                ->where('lang.name',$value);
+        })->groupBy('cat.name')
+        ->orderBy('film_count','DESC')
+        ->get();
+
+    return $categories;
 });
