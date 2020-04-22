@@ -110,19 +110,40 @@ Route::get('/', function () {
      *      order by staff_id
      */
 
-    $staffWithAddresses=DB::table('staff as s')
-        ->select([
-            's.staff_id','s.first_name','s.last_name','s.email',
-            'addr.address','addr.district','addr.postal_code',
-            'c.city','count.country'])
-        ->leftJoin('address as addr', 's.address_id','=','addr.address_id')
-        //result is left join again with city
-        ->leftJoin('city as c','addr.city_id','=','c.city_id')
-        //result is left join again with country
-        ->leftJoin('country as count','c.country_id','=','count.country_id')
-        ->orderBy('staff_id')
+//    $staffWithAddresses=DB::table('staff as s')
+//        ->select([
+//            's.staff_id','s.first_name','s.last_name','s.email',
+//            'addr.address','addr.district','addr.postal_code',
+//            'c.city','count.country'])
+//        ->leftJoin('address as addr', 's.address_id','=','addr.address_id')
+//        //result is left join again with city
+//        ->leftJoin('city as c','addr.city_id','=','c.city_id')
+//        //result is left join again with country
+//        ->leftJoin('country as count','c.country_id','=','count.country_id')
+//        ->orderBy('staff_id')
+//        ->get();
+
+    //Raw Query
+    /**
+     * Todo:select film_id, title
+     *      from film
+     *      where title like 'K%' or title like 'Q%'
+     *      and language_id in (
+     *          select language_id from 'language' from language
+     *          where name='English'
+     *      )
+     *      order by title
+     */
+
+    $EnglishFilms=DB::table('film')
+        ->select('film_id','title')
+        ->where('title','like','K%')
+        ->orWhere('title','like','Q%')
+        ->whereIn('language_id',function ($query){
+            $query->select('language_id')->from('language')
+                ->where('name','English');
+        })->orderBy('title')
         ->get();
 
-
-    return $staffWithAddresses;
+    return $EnglishFilms;
 });

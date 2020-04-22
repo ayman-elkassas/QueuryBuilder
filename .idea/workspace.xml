@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b66150b-d43e-4343-9ffe-9fd50d7fb907" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ScreenShots Lessons/3/join (inner join).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScreenShots Lessons/3/left join.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScreenShots Lessons/3/outer join (join, left,right).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScreenShots Lessons/3/right join.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="123" column="16" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
+            <state relative-caret-position="451">
+              <caret line="145" column="8" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="8" />
               <folding>
                 <element signature="e#7#44#0#PHP" expanded="true" />
               </folding>
@@ -228,7 +223,7 @@
       <path value="$PROJECT_DIR$/vendor/mtolhuys/laravel-schematics" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="656" />
@@ -296,8 +291,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Server\htdocs\QueuryBuilder\ScreenShots Lessons\3" />
       <recent name="E:\Server\htdocs\QueuryBuilder\ScreenShots Lessons\2" />
+      <recent name="E:\Server\htdocs\QueuryBuilder\ScreenShots Lessons\3" />
       <recent name="E:\Server\htdocs\QueuryBuilder\ScreenShots Lessons\1" />
     </key>
   </component>
@@ -330,18 +325,18 @@
       <option name="presentableId" value="Default" />
       <updated>1587489244839</updated>
       <workItem from="1587489282208" duration="3757000" />
-      <workItem from="1587552862669" duration="8510000" />
+      <workItem from="1587552862669" duration="9801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12267000" />
+    <option name="totallyTimeSpent" value="13558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -590,8 +585,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="123" column="16" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
+        <state relative-caret-position="451">
+          <caret line="145" column="8" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="8" />
           <folding>
             <element signature="e#7#44#0#PHP" expanded="true" />
           </folding>
